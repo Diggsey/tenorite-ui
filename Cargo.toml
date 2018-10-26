@@ -1,0 +1,15 @@
+[package]
+name = "tenorite-ui"
+version = "0.1.0"
+authors = ["Diggory Blake <diggsey@googlemail.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+smallbitvec = "2.1.1"
+maplit = "1.0.1"
+
+[patch.crates-io]
+smallbitvec = { git = "https://github.com/Diggsey/smallbitvec.git" }
